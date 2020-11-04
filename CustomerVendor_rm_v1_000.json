@@ -43,16 +43,16 @@
         "operationId": "getCustomerVendor",
         "parameters": [
           {
-            "$ref": "https://raw.githubusercontent.com/RodrigoRabeloBH/schema/main/CustomerVendor_rm_1_000.json"
+            "$ref": ""
           },
           {
-            "$ref": "https://raw.githubusercontent.com/RodrigoRabeloBH/schema/main/CustomerVendor_rm_1_000.json"
+            "$ref": ""
           },
           {
-            "$ref": "https://raw.githubusercontent.com/RodrigoRabeloBH/schema/main/CustomerVendor_rm_1_000.json"
+            "$ref": ""
           },
           {
-            "$ref": "https://raw.githubusercontent.com/RodrigoRabeloBH/schema/main/CustomerVendor_rm_1_000.json"
+            "$ref": ""
           }
         ],
         "responses": {
@@ -61,7 +61,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": ""
+                  "$ref": "https://raw.githubusercontent.com/RodrigoRabeloBH/schema/main/CustomerVendor_rm_1_000.json#"
                 }
               }
             }
@@ -174,7 +174,7 @@
             "$ref": "#/components/parameters/InternalId"
           },
           {
-            "$ref": "https://raw.githubusercontent.com/RodrigoRabeloBH/schema/main/CustomerVendor_rm_1_000.json"
+            "$ref": ""
           }
         ],
         "responses": {
@@ -183,7 +183,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "https://raw.githubusercontent.com/RodrigoRabeloBH/schema/main/CustomerVendor_rm_1_000.json"
+                  "$ref": ""
                 }
               }
             }
@@ -220,7 +220,7 @@
             "$ref": "#/components/parameters/InternalId"
           },
           {
-            "$ref": "https://raw.githubusercontent.com/RodrigoRabeloBH/schema/main/CustomerVendor_rm_1_000.json"
+            "$ref": ""
           }
         ],
         "responses": {
@@ -239,7 +239,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "https://raw.githubusercontent.com/RodrigoRabeloBH/schema/main/CustomerVendor_rm_1_000.json"
+                  "$ref": ""
                 }
               }
             }
@@ -249,7 +249,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "https://raw.githubusercontent.com/RodrigoRabeloBH/schema/main/CustomerVendor_rm_1_000.json"
+                  "$ref": ""
                 }
               }
             }
@@ -269,7 +269,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "https://raw.githubusercontent.com/RodrigoRabeloBH/schema/main/CustomerVendor_rm_1_000.json"
+                "$ref": ""
               }
             }
           },
@@ -285,7 +285,7 @@
             "$ref": "#/components/parameters/InternalId"
           },
           {
-            "$ref": "https://raw.githubusercontent.com/RodrigoRabeloBH/schema/main/CustomerVendor_rm_1_000.json"
+            "$ref": ""
           }
         ],
         "description": "Remove um Registro da Tabela de Cliente/Fornecedor",
@@ -309,7 +309,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "https://raw.githubusercontent.com/RodrigoRabeloBH/schema/main/CustomerVendor_rm_1_000.json"
+                  "$ref": ""
                 }
               }
             }
