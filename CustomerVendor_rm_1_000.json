@@ -1160,7 +1160,7 @@
         },
         "LastChangeDate": {
           "description": "Data da Útima Alteração",
-          "type": "string",
+          "type": "date-time",
           "x-totvs": [
             {
               "product": "RM",
@@ -1168,13 +1168,13 @@
               "required": true,
               "note": "Data da Útima Alteração",
               "field": "FCFO.DATAULTALTERACAO",
-              "type": "string"
+              "type": "date-time"
             }
           ]
         },
         "CreationDate": {
           "description": "Data de Criação",
-          "type": "string",
+          "type": "date-time",
           "x-totvs": [
             {
               "product": "RM",
@@ -1182,7 +1182,7 @@
               "required": true,
               "note": "Data de Criação",
               "field": "FCFO.DATACRIACAO",
-              "type": "string"
+              "type": "date-time"
             }
           ]
         },
