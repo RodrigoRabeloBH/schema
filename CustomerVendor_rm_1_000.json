@@ -976,7 +976,7 @@
         },
         "RecCreatedOn": {
           "description": "Data de criação do registro",
-          "type": "datetime",
+          "type": "string",
           "x-totvs": [
             {
               "product": "RM",
@@ -984,7 +984,7 @@
               "required": true,
               "note": "Data de criação do registro",
               "field": "FCFO.RECCREATEDON",
-              "type": "datetime"
+              "type": "string"
             }
           ]
         },
@@ -1004,7 +1004,7 @@
         },
         "RecModifiedOn": {
           "description": "Data de modificação do registro",
-          "type": "datetime",
+          "type": "string",
           "x-totvs": [
             {
               "product": "RM",
@@ -1012,7 +1012,7 @@
               "required": true,
               "note": "Data de modificação do registro",
               "field": "FCFO.RECMODIFIEDON",
-              "type": "datetime"
+              "type": "string"
             }
           ]
         },
@@ -1158,9 +1158,9 @@
             }
           ]
         },
-        "LastChangedatetime": {
+        "LastChangeDate": {
           "description": "Data da Útima Alteração",
-          "type": "datetime",
+          "type": "string",
           "x-totvs": [
             {
               "product": "RM",
@@ -1168,13 +1168,13 @@
               "required": true,
               "note": "Data da Útima Alteração",
               "field": "FCFO.DATAULTALTERACAO",
-              "type": "datetime"
+              "type": "string"
             }
           ]
         },
-        "Creationdatetime": {
+        "CreationDate": {
           "description": "Data de Criação",
-          "type": "datetime",
+          "type": "string",
           "x-totvs": [
             {
               "product": "RM",
@@ -1182,7 +1182,7 @@
               "required": true,
               "note": "Data de Criação",
               "field": "FCFO.DATACRIACAO",
-              "type": "datetime"
+              "type": "string"
             }
           ]
         },
@@ -1804,7 +1804,7 @@
             },
             "RecCreatedOn": {
               "description": "Data de criação do registro",
-              "type": "datetime",
+              "type": "string",
               "x-totvs": [
                 {
                   "product": "RM",
@@ -1812,7 +1812,7 @@
                   "required": true,
                   "note": "Data de criação do registro",
                   "field": "FCFO.RECCREATEDON",
-                  "type": "datetime"
+                  "type": "string"
                 }
               ]
             },
@@ -1832,7 +1832,7 @@
             },
             "RecModifiedOn": {
               "description": "Data de modificação do registro",
-              "type": "datetime",
+              "type": "string",
               "x-totvs": [
                 {
                   "product": "RM",
@@ -1840,7 +1840,7 @@
                   "required": true,
                   "note": "Data de modificação do registro",
                   "field": "FCFO.RECMODIFIEDON",
-                  "type": "datetime"
+                  "type": "string"
                 }
               ]
             }
