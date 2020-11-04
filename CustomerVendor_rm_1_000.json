@@ -1832,7 +1832,7 @@
             },
             "RecModifiedOn": {
               "description": "Data de modificação do registro",
-              "type": "string",
+              "type": "datetime",
               "x-totvs": [
                 {
                   "product": "RM",
@@ -1840,7 +1840,7 @@
                   "required": true,
                   "note": "Data de modificação do registro",
                   "field": "FCFO.RECMODIFIEDON",
-                  "type": "string"
+                  "type": "datetime"
                 }
               ]
             }
