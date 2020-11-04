@@ -17,7 +17,7 @@
           "$ref": "#/definitions/CustomerVendor",
           "type": "object"
         },
-        "returnContentType": {
+        "returnContent": {
           "$ref": "#/definitions/ReturnContent",
           "type": "object"
         }
