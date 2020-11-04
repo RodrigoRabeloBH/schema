@@ -1146,7 +1146,7 @@
         },
         "CreditLimit": {
           "description": "Limite de Crédito",
-          "type": "double",
+          "type": "number",
           "x-totvs": [
             {
               "product": "RM",
@@ -1154,7 +1154,7 @@
               "required": true,
               "note": "Limite de Crédito",
               "field": "FCFO.LIMITECREDITO",
-              "type": "double"
+              "type": "number"
             }
           ]
         },
@@ -1188,7 +1188,7 @@
         },
         "OptionalValue1": {
           "description": "Valor Opcional 1",
-          "type": "double",
+          "type": "number",
           "x-totvs": [
             {
               "product": "RM",
@@ -1196,13 +1196,13 @@
               "required": true,
               "note": "Valor Opcional 1 ",
               "field": "FCFO.VALOROP1",
-              "type": "double"
+              "type": "number"
             }
           ]
         },
         "OptionalValue2": {
           "description": "Valor Opcional 2",
-          "type": "double",
+          "type": "number",
           "x-totvs": [
             {
               "product": "RM",
@@ -1210,13 +1210,13 @@
               "required": true,
               "note": "Valor Opcional 2 ",
               "field": "FCFO.VALOROP2",
-              "type": "double"
+              "type": "number"
             }
           ]
         },
         "OptionalValue3": {
           "description": "Valor Opcional 3",
-          "type": "double",
+          "type": "number",
           "x-totvs": [
             {
               "product": "RM",
@@ -1224,13 +1224,13 @@
               "required": true,
               "note": "Valor Opcional 3 ",
               "field": "FCFO.VALOROP3",
-              "type": "double"
+              "type": "number"
             }
           ]
         },
         "Patrimony": {
           "description": "Valor Patrimonial",
-          "type": "double",
+          "type": "number",
           "x-totvs": [
             {
               "product": "RM",
@@ -1238,7 +1238,7 @@
               "required": true,
               "note": "Valor Patrimonial ",
               "field": "FCFO.PATRIMONIO",
-              "type": "double"
+              "type": "number"
             }
           ]
         },
@@ -1300,7 +1300,7 @@
         },
         "ProviderShippingPrice": {
           "description": "Valor do Frete",
-          "type": "double",
+          "type": "number",
           "x-totvs": [
             {
               "product": "RM",
@@ -1308,7 +1308,7 @@
               "required": true,
               "note": "",
               "field": "FCFO.VALFRETE",
-              "type": "double"
+              "type": "number"
             }
           ]
         },
@@ -1398,7 +1398,7 @@
         },
         "OtherDeductionsIRRFCalculations": {
           "description": "Valor de outras deduções para cálculo de IRRF",
-          "type": "double",
+          "type": "number",
           "x-totvs": [
             {
               "product": "RM",
@@ -1406,7 +1406,7 @@
               "required": true,
               "note": "Valor de outras deduções para cálculo de IRRF",
               "field": "FCFO.VROUTRASDEDUCOESIRRF",
-              "type": "double"
+              "type": "number"
             }
           ]
         },
