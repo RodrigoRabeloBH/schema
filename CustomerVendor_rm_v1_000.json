@@ -148,7 +148,7 @@
         "tags": ["Tabela de Cliente/Fornecedor"],
         "summary": "Retorna um registro da Tabela de Cliente/Fornecedor",
         "description": "Retorna um registro da Tabela de Cliente/Fornecedor",
-        "operationId": "getCustomerVendor{InternalId}",
+        "operationId": "getCustomerVendorInternalId",
         "parameters": [
           {
             "$ref": "#/components/parameters/InternalId"
