@@ -9,7 +9,7 @@
       "messageDocumentation": {
         "name": "Tabela de Cliente/Fornecedor",
         "description": "Mensagem para Integração de Tabela de Cliente/Fornecedor",
-        "segment": ""
+        "segment": "Financeiro"
       },
       "transactionDefinition": {
         "subType": "event",
