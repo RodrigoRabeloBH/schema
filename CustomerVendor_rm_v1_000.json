@@ -61,17 +61,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "https://raw.githubusercontent.com/RodrigoRabeloBH/schema/main/CustomerVendor_rm_1_000.json#"
-                }
-              }
-            }
-          },
-          "404": {
-            "description": " Tabela de Cliente/Fornecedor",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": ""
+                  "$ref": "https://raw.githubusercontent.com/RodrigoRabeloBH/schema/main/CustomerVendor_rm_1_000.json#/definitions/CustomerVendor"
                 }
               }
             }
@@ -93,7 +83,7 @@
         "summary": "Inclui um registro na Tabela de Cliente/Fornecedor",
         "parameters": [
           {
-            "$ref": ""
+            "$ref": "https://raw.githubusercontent.com/totvs/ttalk-standard-message/master/jsonschema/apis/types/totvsApiTypesBase.json#/parameters/Authorization"
           }
         ],
         "description": "",
@@ -104,17 +94,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": ""
-                }
-              }
-            }
-          },
-          "207": {
-            "description": "Operação realizada parcialmente com sucesso",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": ""
+                  "$ref": "https://raw.githubusercontent.com/RodrigoRabeloBH/schema/main/CustomerVendor_rm_1_000.json#/definitions/CustomerVendor"
                 }
               }
             }
@@ -124,7 +104,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": ""
+                  "$ref": "https://raw.githubusercontent.com/totvs/ttalk-standard-message/master/jsonschema/apis/types/totvsApiTypesBase.json#/definitions/ErrorModel"
                 }
               }
             }
@@ -134,7 +114,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": ""
+                  "$ref": "https://raw.githubusercontent.com/totvs/ttalk-standard-message/master/jsonschema/apis/types/totvsApiTypesBase.json#/definitions/ErrorModel"
                 }
               }
             }
@@ -154,7 +134,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": ""
+                "$ref": "https://raw.githubusercontent.com/RodrigoRabeloBH/schema/main/CustomerVendor_rm_1_000.json#/definitions/CustomerVendor"
               }
             }
           },
@@ -168,7 +148,7 @@
         "tags": ["Tabela de Cliente/Fornecedor"],
         "summary": "Retorna um registro da Tabela de Cliente/Fornecedor",
         "description": "Retorna um registro da Tabela de Cliente/Fornecedor",
-        "operationId": "getCustomerVendor",
+        "operationId": "getCustomerVendor{InternalId}",
         "parameters": [
           {
             "$ref": "#/components/parameters/InternalId"
@@ -183,7 +163,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": ""
+                  "$ref": "https://raw.githubusercontent.com/RodrigoRabeloBH/schema/main/CustomerVendor_rm_1_000.json#/definitions/CustomerVendor"
                 }
               }
             }
@@ -220,7 +200,7 @@
             "$ref": "#/components/parameters/InternalId"
           },
           {
-            "$ref": ""
+            "$ref": "https://raw.githubusercontent.com/totvs/ttalk-standard-message/master/jsonschema/apis/types/totvsApiTypesBase.json#/parameters/Authorization"
           }
         ],
         "responses": {
@@ -229,7 +209,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": ""
+                  "$ref": "https://raw.githubusercontent.com/RodrigoRabeloBH/schema/main/CustomerVendor_rm_1_000.json#/definitions/CustomerVendor"
                 }
               }
             }
@@ -239,7 +219,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": ""
+                  "$ref": "https://raw.githubusercontent.com/totvs/ttalk-standard-message/master/jsonschema/apis/types/totvsApiTypesBase.json#/definitions/ErrorModel"
                 }
               }
             }
@@ -249,7 +229,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": ""
+                  "$ref": "https://raw.githubusercontent.com/totvs/ttalk-standard-message/master/jsonschema/apis/types/totvsApiTypesBase.json#/definitions/ErrorModel"
                 }
               }
             }
@@ -269,7 +249,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": ""
+                "$ref": "https://raw.githubusercontent.com/RodrigoRabeloBH/schema/main/CustomerVendor_rm_1_000.json#/definitions/CustomerVendor"
               }
             }
           },
@@ -285,7 +265,7 @@
             "$ref": "#/components/parameters/InternalId"
           },
           {
-            "$ref": ""
+            "$ref": "https://raw.githubusercontent.com/totvs/ttalk-standard-message/master/jsonschema/apis/types/totvsApiTypesBase.json#/parameters/Authorization"
           }
         ],
         "description": "Remove um Registro da Tabela de Cliente/Fornecedor",
@@ -309,7 +289,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": ""
+                  "$ref": "https://raw.githubusercontent.com/totvs/ttalk-standard-message/master/jsonschema/apis/types/totvsApiTypesBase.json#/definitions/ErrorModel"
                 }
               }
             }
