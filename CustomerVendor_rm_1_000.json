@@ -976,7 +976,7 @@
         },
         "RecCreatedOn": {
           "description": "Data de criação do registro",
-          "type": "string",
+          "type": "datetime",
           "x-totvs": [
             {
               "product": "RM",
@@ -984,7 +984,7 @@
               "required": true,
               "note": "Data de criação do registro",
               "field": "FCFO.RECCREATEDON",
-              "type": "string"
+              "type": "datetime"
             }
           ]
         },
@@ -1004,7 +1004,7 @@
         },
         "RecModifiedOn": {
           "description": "Data de modificação do registro",
-          "type": "string",
+          "type": "datetime",
           "x-totvs": [
             {
               "product": "RM",
@@ -1012,7 +1012,7 @@
               "required": true,
               "note": "Data de modificação do registro",
               "field": "FCFO.RECMODIFIEDON",
-              "type": "string"
+              "type": "datetime"
             }
           ]
         },
@@ -1146,7 +1146,7 @@
         },
         "CreditLimit": {
           "description": "Limite de Crédito",
-          "type": "number",
+          "type": "double",
           "x-totvs": [
             {
               "product": "RM",
@@ -1154,13 +1154,13 @@
               "required": true,
               "note": "Limite de Crédito",
               "field": "FCFO.LIMITECREDITO",
-              "type": "number"
+              "type": "double"
             }
           ]
         },
-        "LastChangeDate": {
+        "LastChangedatetime": {
           "description": "Data da Útima Alteração",
-          "type": "string",
+          "type": "datetime",
           "x-totvs": [
             {
               "product": "RM",
@@ -1168,13 +1168,13 @@
               "required": true,
               "note": "Data da Útima Alteração",
               "field": "FCFO.DATAULTALTERACAO",
-              "type": "string"
+              "type": "datetime"
             }
           ]
         },
-        "CreationDate": {
+        "Creationdatetime": {
           "description": "Data de Criação",
-          "type": "string",
+          "type": "datetime",
           "x-totvs": [
             {
               "product": "RM",
@@ -1182,13 +1182,13 @@
               "required": true,
               "note": "Data de Criação",
               "field": "FCFO.DATACRIACAO",
-              "type": "string"
+              "type": "datetime"
             }
           ]
         },
         "OptionalValue1": {
           "description": "Valor Opcional 1",
-          "type": "number",
+          "type": "double",
           "x-totvs": [
             {
               "product": "RM",
@@ -1196,13 +1196,13 @@
               "required": true,
               "note": "Valor Opcional 1 ",
               "field": "FCFO.VALOROP1",
-              "type": "number"
+              "type": "double"
             }
           ]
         },
         "OptionalValue2": {
           "description": "Valor Opcional 2",
-          "type": "number",
+          "type": "double",
           "x-totvs": [
             {
               "product": "RM",
@@ -1210,13 +1210,13 @@
               "required": true,
               "note": "Valor Opcional 2 ",
               "field": "FCFO.VALOROP2",
-              "type": "number"
+              "type": "double"
             }
           ]
         },
         "OptionalValue3": {
           "description": "Valor Opcional 3",
-          "type": "number",
+          "type": "double",
           "x-totvs": [
             {
               "product": "RM",
@@ -1224,13 +1224,13 @@
               "required": true,
               "note": "Valor Opcional 3 ",
               "field": "FCFO.VALOROP3",
-              "type": "number"
+              "type": "double"
             }
           ]
         },
         "Patrimony": {
           "description": "Valor Patrimonial",
-          "type": "number",
+          "type": "double",
           "x-totvs": [
             {
               "product": "RM",
@@ -1238,7 +1238,7 @@
               "required": true,
               "note": "Valor Patrimonial ",
               "field": "FCFO.PATRIMONIO",
-              "type": "number"
+              "type": "double"
             }
           ]
         },
@@ -1300,7 +1300,7 @@
         },
         "ProviderShippingPrice": {
           "description": "Valor do Frete",
-          "type": "number",
+          "type": "double",
           "x-totvs": [
             {
               "product": "RM",
@@ -1308,7 +1308,7 @@
               "required": true,
               "note": "",
               "field": "FCFO.VALFRETE",
-              "type": "number"
+              "type": "double"
             }
           ]
         },
@@ -1398,7 +1398,7 @@
         },
         "OtherDeductionsIRRFCalculations": {
           "description": "Valor de outras deduções para cálculo de IRRF",
-          "type": "number",
+          "type": "double",
           "x-totvs": [
             {
               "product": "RM",
@@ -1406,7 +1406,7 @@
               "required": true,
               "note": "Valor de outras deduções para cálculo de IRRF",
               "field": "FCFO.VROUTRASDEDUCOESIRRF",
-              "type": "number"
+              "type": "double"
             }
           ]
         },
@@ -1804,7 +1804,7 @@
             },
             "RecCreatedOn": {
               "description": "Data de criação do registro",
-              "type": "string",
+              "type": "datetime",
               "x-totvs": [
                 {
                   "product": "RM",
@@ -1812,7 +1812,7 @@
                   "required": true,
                   "note": "Data de criação do registro",
                   "field": "FCFO.RECCREATEDON",
-                  "type": "string"
+                  "type": "datetime"
                 }
               ]
             },
@@ -1832,7 +1832,7 @@
             },
             "RecModifiedOn": {
               "description": "Data de modificação do registro",
-              "type": "string",
+              "type": "datetime",
               "x-totvs": [
                 {
                   "product": "RM",
@@ -1840,7 +1840,7 @@
                   "required": true,
                   "note": "Data de modificação do registro",
                   "field": "FCFO.RECMODIFIEDON",
-                  "type": "string"
+                  "type": "datetime"
                 }
               ]
             }
