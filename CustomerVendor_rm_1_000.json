@@ -1018,7 +1018,7 @@
         },
         "BankingInformation": {
           "description": "Informações Bancárias",
-          "type": "array",
+          "type": "object",
           "x-totvs": [
             {
               "product": "RM",
@@ -1026,7 +1026,7 @@
               "required": true,
               "note": "Informações Bancárias",
               "field": "",
-              "type": "array"
+              "type": "object"
             }
           ],
           "properties": {
