@@ -73,7 +73,7 @@
               "product": "RM",
               "available": true,
               "note": "Este verbo está disponível com todos os parâmetros",
-              "minimalVersion": "12.1.31"
+              "minimalVersion": "12.1.29"
             }
           ]
         }
@@ -126,7 +126,7 @@
               "product": "RM",
               "available": true,
               "note": "Este verbo está disponível com todos os parâmetros",
-              "minimalVersion": "12.1.31"
+              "minimalVersion": "12.1.29"
             }
           ]
         },
@@ -185,7 +185,7 @@
               "product": "RM",
               "available": true,
               "note": "Este verbo está disponível com todos os parâmetros",
-              "minimalVersion": "12.1.31"
+              "minimalVersion": "12.1.29"
             }
           ]
         }
@@ -241,7 +241,7 @@
               "product": "RM",
               "available": true,
               "note": "Este verbo está disponível com todos os parâmetros",
-              "minimalVersion": "12.1.31"
+              "minimalVersion": "12.1.29"
             }
           ]
         },
@@ -301,7 +301,7 @@
               "product": "RM",
               "available": true,
               "note": "Este verbo está disponível com todos os parâmetros",
-              "minimalVersion": "12.1.31"
+              "minimalVersion": "12.1.29"
             }
           ]
         }
