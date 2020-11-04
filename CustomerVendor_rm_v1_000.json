@@ -89,7 +89,7 @@
         }
       },
       "post": {
-        "tags": ["Tabela de Cliente/Fornecedor 1"],
+        "tags": ["Tabela de Cliente/Fornecedor"],
         "summary": "Inclui um registro na Tabela de Cliente/Fornecedor",
         "parameters": [
           {
@@ -327,5 +327,19 @@
         }
       }
     }
+  },
+  "components": {
+    "parameters": {
+      "InternalId": {
+        "name": "InternalId",
+        "in": "path",
+        "required": true,
+        "description": "Identificador Único representando a Tabela de classificação (CompanyId|CustomerVendorId)",
+        "schema": {
+          "type": "string"
+        }
+      }
+    },
+    "schemas": {}
   }
 }
